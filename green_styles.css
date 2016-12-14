@@ -26,3 +26,75 @@ header .row {
 nav.row.navbar.navbar-default {
 	background-color: rgba(252,188,18,1.00);
 }
+article.row aside blockquote {
+	margin: 0px 0px 20px 0px;
+}
+article.row blockquote {
+	border: none;
+	font-size: 100%;
+}
+
+article.row aside blockquote p {
+	padding: 0px .5em;
+	margin: 0px 0px 5px 0px;
+	text-indent: -0.5em;
+}
+article.row aside blockquote cite {
+	padding: 0px 10px;
+	display: block;
+	font-style: italic;
+	text-align: right;
+}
+article.row aside {
+	margin: 1em 0px;
+	padding: 1em 0px;
+	border-top: solid 5px #625859;
+	border-bottom: solid 3px #625859;
+	font-size: 95%;
+}
+.sidebar2 {
+	padding: 0px 10px;
+	background-color: rgba(252,188,18,1.00);
+}
+.sidebar2 h2 {
+	margin-top: 10px;
+	padding: 0px 10px;
+	margin-bottom: 5px;
+	font-size: 130%;
+	line-height: 1.4em;
+}
+.sidebar2 p {
+	padding: 0px 10px;
+	margin-bottom: 5px;
+	line-height: 1.3em;
+}
+footer {
+	padding: 1em 0px;
+	background-color: #625859;
+	color: rgba(3,3,3,1.00);
+	background-image: -webkit-linear-gradient(270deg,rgba(173,172,172,1.00) 32.12%,rgba(75,73,73,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(173,172,172,1.00) 32.12%,rgba(75,73,73,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(173,172,172,1.00) 32.12%,rgba(75,73,73,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(173,172,172,1.00) 32.12%,rgba(75,73,73,1.00) 100%);
+}
+body {
+	font-family: source-sans-pro, "Trebuchet MS", Verdana, Arial, sans-serif, Helvetica;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+}
+article.row section h1 {
+	font-family: "Patua One";
+	margin-top: 0px;
+	margin-bottom: 15px;
+	font-size: 300%;
+	line-height: 1.4em;
+}
+
+@media (max-width: 470px){
+header.row p {
+	letter-spacing: .1em;
+	background-image: url(images/New-Hope-LOGO.jpg);
+}
+
+}
