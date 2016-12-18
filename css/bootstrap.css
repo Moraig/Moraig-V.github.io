@@ -55,7 +55,8 @@ abbr[title] {
 }
 b,
 strong {
-  font-weight: bold;
+	font-weight: bold;
+	color: #030303;
 }
 dfn {
   font-style: italic;
@@ -119,7 +120,9 @@ textarea {
   color: inherit;
 }
 button {
-  overflow: visible;
+	overflow: visible;
+	width: 100%;
+	background-color: #FCBC12;
 }
 button,
 select {
@@ -188,6 +191,36 @@ td,
 th {
   padding: 0;
 }
+.btn {
+	left: 50px;
+	float: left;
+	-webkit-box-shadow: 5px 5px 5px #4D4949;
+	box-shadow: 5px 5px 5px #4D4949;
+	background-color: #FCBC12;
+}
+.col-md-3.col-md-pull-6.col-sm-4.col-sm-pull-8 blockquote figcaption {
+
+}
+.col-md-3.col-md-pull-6.col-sm-4.col-sm-pull-8 blockquote figcaption {
+
+}
+.col-md-3.col-md-pull-6.col-sm-4.col-sm-pull-8 blockquote figcaption {
+	padding-left: 0px;
+	font-weight: bolder;
+	text-align: center;
+	padding-top: 40px;
+}
+.carousel_img {
+	-webkit-box-shadow: 0px 10px 5px #4D4949;
+	box-shadow: 0px 10px 5px #4D4949;
+
+
+}
+
+
+
+
+
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
   *,
@@ -1273,11 +1306,14 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 30px;
+	font-size: 30px;
+	color: #030303;
+	text-align: center;
 }
 h3,
 .h3 {
-  font-size: 24px;
+	font-size: 24px;
+	border: medium dotted #4D4949;
 }
 h4,
 .h4 {
@@ -1292,7 +1328,9 @@ h6,
   font-size: 12px;
 }
 p {
-  margin: 0 0 10px;
+	margin: 0 0 10px;
+	font-weight: 400;
+	text-align: center;
 }
 .lead {
   margin-bottom: 20px;
@@ -1774,7 +1812,11 @@ pre code {
     float: left;
   }
   .col-sm-12 {
-    width: 100%;
+	width: 100%;
+	background-image: url(../images/New-Hope-LOGO.jpg);
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	background-size: contain;
   }
   .col-sm-11 {
     width: 91.66666667%;
@@ -2034,7 +2076,8 @@ pre code {
     left: 33.33333333%;
   }
   .col-md-push-3 {
-    left: 25%;
+	left: 25%;
+	color: #FCBC12;
   }
   .col-md-push-2 {
     left: 16.66666667%;
@@ -3221,9 +3264,9 @@ fieldset[disabled] .btn-info.active {
   background-color: #fff;
 }
 .btn-warning {
-  color: #fff;
-  background-color: #f0ad4e;
-  border-color: #eea236;
+	color: #fff;
+	background-color: #FCBC12;
+	border-color: #eea236;
 }
 .btn-warning:hover,
 .btn-warning:focus,
@@ -4396,8 +4439,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+	background-color: #FCBC12;
+	border-color: #e7e7e7;
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -6066,7 +6109,10 @@ button.close {
   border-left-color: #fff;
 }
 .carousel {
-  position: relative;
+	position: relative;
+	border: thin solid #4D4949;
+	-webkit-box-shadow: 0px 5px 3px;
+	box-shadow: 0px 5px 3px;
 }
 .carousel-inner {
   position: relative;
@@ -6343,6 +6389,9 @@ button.close {
   margin-right: auto;
   margin-left: auto;
 }
+.carousel_img {
+}
+
 .pull-right {
   float: right !important;
 }
