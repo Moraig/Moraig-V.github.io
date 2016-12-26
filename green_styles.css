@@ -55,6 +55,10 @@ article.row aside blockquote p {
 	padding: 0px .5em;
 	margin: 0px 0px 5px 0px;
 	text-indent: -0.5em;
+	font-family: source-sans-pro, "Trebuchet MS", Verdana, Arial, sans-serif, Helvetica;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
 }
 article.row aside blockquote cite {
 	padding: 0px 10px;
@@ -72,6 +76,7 @@ article.row aside {
 .sidebar2 {
 	padding: 0px 10px;
 	background-color: rgba(252,188,18,1.00);
+	display: inline;
 }
 .sidebar2 h2 {
 	margin-top: 10px;
@@ -86,7 +91,10 @@ article.row aside {
 	margin-bottom: 5px;
 	line-height: 1.3em;
 	text-align: center;
-	font-size: 16px;
+	font-size: 14px;
+	font-family: source-sans-pro, "Trebuchet MS", Verdana, Arial, sans-serif, Helvetica;
+	font-style: normal;
+	font-weight: 400;
 }
 .flt_lft {
 	border: thin solid #4D4949;
@@ -158,12 +166,11 @@ video {
 	margin-top: 0px;
 	border-spacing: 0px 0px;
 	background-color: #030303;
-	padding-left: 15px;
 	-webkit-box-shadow: 0px 5px 3px #FCBC12;
 	box-shadow: 0px 5px 3px #FCBC12;
 }
 .img_position {
-	margin-left: 10px;
+	margin-left: 8px;
 }
 
 .row .col-md-6.col-md-push-3.col-sm-8.col-sm-push-4 h3 {
@@ -178,6 +185,23 @@ video {
 .border {
 	border: medium dotted #4D4949;
 }
+.heading_shad {
+	text-shadow: 2px 3px 4px #908D8D;
+}
+.who {
+	color: #FCBC12;
+}
+.para_who {
+	color: #000000;
+}
+.row_up {
+	margin-top: -20px;
+
+}
+
+
+
+
 
 
 
@@ -199,7 +223,7 @@ header.row p {
 
 }
 .flt_rgt {
-	padding-left: 20px;
+	padding-left: 45px;
 }
 .sidebar2 section figure img {
 	margin: 0px auto;
@@ -211,6 +235,7 @@ header.row p {
 	box-shadow: -5px -5px 10px #FCBC12;
 }
 .pad {
+
 }
 .style {
 }
@@ -223,4 +248,9 @@ header.row p {
 .img_position {
 }
 .carousel_img {
+}
+.who {
+	color: #FCBC12;
+}
+.row_up {
 }
