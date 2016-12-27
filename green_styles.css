@@ -68,10 +68,13 @@ article.row aside blockquote cite {
 }
 article.row aside {
 	margin: 1em 0px;
-	padding: 1em 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 1em;
 	border-top: solid 5px #625859;
 	border-bottom: solid 3px #625859;
 	font-size: 95%;
+	padding-top: 1em;
 }
 .sidebar2 {
 	padding: 0px 10px;
@@ -122,6 +125,7 @@ article.row section h1 {
 	font-size: 300%;
 	line-height: 1.4em;
 	text-align: center;
+	padding-top: 1em;
 }
 main.paragraph {
 	color: #FCBC12;
@@ -253,4 +257,16 @@ header.row p {
 	color: #FCBC12;
 }
 .row_up {
+
+
+}
+.side_col {
+	border-left: 2cm solid #B5B3B3;
+	-webkit-box-shadow: 0 0;
+	box-shadow: 0 0;
+
+
+
+
+
 }
