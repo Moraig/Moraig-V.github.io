@@ -104,13 +104,13 @@ article.row aside {
 }
 
 footer {
-	padding: 1em 0px;
 	background-color: #625859;
 	color: rgba(3,3,3,1.00);
 	background-image: -webkit-linear-gradient(270deg,rgba(173,172,172,1.00) 32.12%,rgba(75,73,73,1.00) 100%);
 	background-image: -moz-linear-gradient(270deg,rgba(173,172,172,1.00) 32.12%,rgba(75,73,73,1.00) 100%);
 	background-image: -o-linear-gradient(270deg,rgba(173,172,172,1.00) 32.12%,rgba(75,73,73,1.00) 100%);
 	background-image: linear-gradient(180deg,rgba(173,172,172,1.00) 32.12%,rgba(75,73,73,1.00) 100%);
+	height: 50px;
 }
 body {
 	font-family: source-sans-pro, "Trebuchet MS", Verdana, Arial, sans-serif, Helvetica;
@@ -137,6 +137,10 @@ main.paragraph {
 }
 .row .col-md-3.sidebar2.col-sm-8.col-sm-push-4.col-md-push-0 img {
 }
+.round {
+	border-radius: 50px;
+}
+
 p.row {
 	width: 90%;
 	padding-left: 30px;
@@ -187,10 +191,11 @@ video {
 
 }
 .border {
-	border: medium dotted #4D4949;
+	border: medium solid #4D4949;
+	border-bottom-left-radius: 0px;
 }
 .heading_shad {
-	text-shadow: 2px 3px 4px #908D8D;
+	text-shadow: 2px 3px 4px #111010;
 }
 .who {
 	color: #FCBC12;
@@ -202,6 +207,14 @@ video {
 	margin-top: -20px;
 
 }
+.side_col {
+}
+.border {
+	border-radius: 25px;
+}
+
+
+
 
 
 
@@ -248,10 +261,14 @@ header.row p {
 .subheading {
 }
 .border {
+	border-color: #908D8D;
 }
 .img_position {
 }
 .carousel_img {
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	padding-top: 10px;
 }
 .who {
 	color: #FCBC12;
@@ -260,6 +277,12 @@ header.row p {
 
 
 }
+.footercolour {
+	color: #F1EBEB;
+	font-size: 14px;
+	font-weight: bold;
+}
+
 .side_col {
 	border-left: 2cm solid #B5B3B3;
 	-webkit-box-shadow: 0 0;
@@ -269,4 +292,14 @@ header.row p {
 
 
 
+}
+.logo {
+	background-image: url(images/New-Hope-LOGO.jpg);
+	background-repeat: no-repeat;
+	height: 40px;
+	margin-left: 20px;
+	margin-top: 10px;
+	background-size: contain;
+}
+.round {
 }

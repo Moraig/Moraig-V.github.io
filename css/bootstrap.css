@@ -1316,7 +1316,6 @@ h2,
 h3,
 .h3 {
 	font-size: 24px;
-	border: medium dotted #4D4949;
 }
 h4,
 .h4 {
@@ -1335,6 +1334,7 @@ p {
 	font-weight: 400;
 	text-align: center;
 	font-size: 14px;
+	color: rgba(77,73,73,1);
 }
 .lead {
   margin-bottom: 20px;
@@ -1820,8 +1820,20 @@ pre code {
 	background-image: url(../images/New-Hope-LOGO.jpg);
 	background-repeat: no-repeat;
 	background-position: 5% 0%;
-	background-size: contain;
+	background-size: 110px auto;
+	height: 100%;
+	margin-top: -10px;
+	margin-bottom: -10px;
   }
+.logowhite {
+}
+.logo {
+}
+.logob {
+}
+
+
+
   .col-sm-11 {
     width: 91.66666667%;
   }
@@ -6639,3 +6651,5 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+.logob {
+}
