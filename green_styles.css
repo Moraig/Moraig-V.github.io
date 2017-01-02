@@ -13,7 +13,6 @@ header.row p {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	font-weight: bold;
 	text-align: right;
-	text-shadow: 0px 3px 5px rgba(0,0,0,0.50);
 	letter-spacing: 0.5em;
 }
 header .row {
@@ -144,6 +143,7 @@ main.paragraph {
 p.row {
 	width: 90%;
 	padding-left: 30px;
+	text-align: center;
 }
 .pad {
 	padding-top: 3px;
@@ -202,6 +202,7 @@ video {
 }
 .para_who {
 	color: #000000;
+	padding-left: 0px;
 }
 .row_up {
 	margin-top: -20px;
@@ -302,4 +303,11 @@ header.row p {
 	background-size: contain;
 }
 .round {
+}
+.pad_who {
+	padding-left: 20px;
+}
+.pad_who {
+	padding-left: 25px;
+	margin-left: 0px;
 }
