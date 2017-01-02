@@ -1822,8 +1822,9 @@ pre code {
 	background-position: 5% 0%;
 	background-size: 110px auto;
 	height: 100%;
-	margin-top: -10px;
 	margin-bottom: -10px;
+	padding-bottom: 5px;
+	margin-top: 5px;
   }
 .logowhite {
 }
