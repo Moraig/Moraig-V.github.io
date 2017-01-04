@@ -125,6 +125,7 @@ article.row section h1 {
 	line-height: 1.4em;
 	text-align: center;
 	padding-top: 1em;
+	color: #FCBC12;
 }
 main.paragraph {
 	color: #FCBC12;
@@ -182,6 +183,7 @@ video {
 }
 
 .row .col-md-6.col-md-push-3.col-sm-8.col-sm-push-4 h3 {
+	color: #FCBC12;
 }
 .subheading {
 	text-align: center;
@@ -282,6 +284,7 @@ header.row p {
 	color: #F1EBEB;
 	font-size: 14px;
 	font-weight: bold;
+	padding-top: 7px;
 }
 
 .side_col {
@@ -295,12 +298,13 @@ header.row p {
 
 }
 .logo {
-	background-image: url(images/New-Hope-LOGO.jpg);
 	background-repeat: no-repeat;
 	height: 40px;
 	margin-left: 20px;
 	margin-top: 10px;
 	background-size: contain;
+	background-image: url(images/New-Hope-LOGO.jpg.png);
+	background-position: 50% 10%;
 }
 .round {
 }
